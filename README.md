@@ -42,3 +42,17 @@ All configs in markdown syntax:
 `linenos`: set whether to show line number. default: True.
 
 `title_bar`: set title bar show head or foot of code block. default: header.
+
+Highlight a code file.
+
+    like this
+    
+        :[lang=python](your_codefile_path/file.py)
+        
+    if you set code_path=your_codefile_path, like this
+    
+        :[lang=python](file.py)
+        
+    sometext...
+    
+
