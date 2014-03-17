@@ -3,8 +3,8 @@ code_block_pro
 
 A Highlight Code Block Extension of Python-Markdown.
 
-### How to use
-
+How to use
+----------
 
     import markdown
     from code_block_pro import CodeBlockProExtension
