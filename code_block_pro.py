@@ -42,7 +42,7 @@ class CodeBlockProExtension(Extension):
     def __init__(self, configs):
         # define default configs
         self.config = {
-            "code_path" : ["", ""],
+            "code_path" : ["", "This is code file path which is default search path."],
             "linenos" : ["True",""],
             "title_bar" : ["header",""],
             }
