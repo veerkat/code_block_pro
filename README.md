@@ -23,8 +23,22 @@ configs:
 ### Markdown Syntax
 
     like this
+        
         :[lang=python]
         print "hello, world."
     
+    some_text...
     
-the `:[]` is mark of highlighting code block.
+    
+The `:[]` is mark of highlighting code block. You can set some configs in `[]`,
+such as `:[lang=python,title="python test", linenos=False, title_bar=footer]`.
+
+All configs in markdown syntax:
+
+`lang`: set language of code.
+
+`title`: set title of code block.
+
+`linenos`: set whether to show line number. default: True.
+
+`title_bar`: set title bar show head or foot of code block. default: header.
