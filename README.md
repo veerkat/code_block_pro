@@ -28,7 +28,7 @@ Markdown Syntax
         :[lang=python]
         print "hello, world."
     
-    some_text...
+    sometext...
     
     
 The `:[]` is mark of highlighting code block. You can set some configs in `[]`,
