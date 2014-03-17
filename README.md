@@ -23,7 +23,6 @@ configs:
 ### Markdown Syntax
 
     like this
-        
         :[lang=python]
         print "hello, world."
     
