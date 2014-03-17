@@ -1,0 +1,54 @@
+/*=======================================================================*/
+/*code block*/
+table.highlighttable{
+        border: 0px;
+    }
+td.linenos{
+    color: #999988;
+    text-align: right;
+    border-right: 1px solid #ccc;
+    border-bottom: 0px;
+    padding: 0 3px 0 6px;
+}
+div.title_bar{
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FAFAFA), to(#EBEBEB));
+    background:-moz-linear-gradient(top, #FAFAFA, #EBEBEB);
+    background:-ms-linear-gradient(top,#FAFAFA, #EBEBEB);
+    height: 21px;
+    padding: 3px;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row;
+}
+div.title_bar_footer{
+    border-top: 1px solid #ccc;
+    border-radius: 0 0 3px 3px;
+}
+div.title_bar_header{
+    border-bottom: 1px solid #ccc;
+    border-radius: 3px 3px 0 0;
+}
+div.codeblock{
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background: #F8F8F8;
+}
+div.block_body{
+    overflow:auto;
+    width: 100%;
+}
+div.highlight{
+    padding: 6px;
+}
+.codeblock pre{
+  margin: 0.1em 0;
+  font-family: "Ubuntu Mono", sans-serif;
+  font-size: 15px;
+  line-height: 17px;
+  padding: 0px;
+  white-space: pre;
+  word-wrap: normal;
+  }
+td.code{
+    border:0px;
+}
