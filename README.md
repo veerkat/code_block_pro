@@ -3,7 +3,7 @@ code_block_pro
 
 A Highlight Code Block Extension of Python-Markdown Using Pygments.
 
-How to use
+How To Use
 ----------
 
     import markdown
@@ -14,11 +14,9 @@ How to use
 
 configs:
 
-   `"code_path"` default: "", code file path.
-     
-   `"linenos"` default: "True", value is "True" or "False", add line number to code.
-     
-   `"title_bar"` default: "header", value is "header" or "footer", show the title bar of CodeBlock.
+* `"code_path"` default: "", code file path.
+* `"linenos"` default: "True", value is "True" or "False", add line number to code.
+* `"title_bar"` default: "header", value is "header" or "footer", show the title bar of CodeBlock.
     
 Markdown Syntax
 ---------------
@@ -36,15 +34,12 @@ such as `:[lang=python,title="python test", linenos=False, title_bar=footer]`.
 
 All configs in markdown syntax:
 
-`lang`: set language of code.
+* `lang`: set language of code.
+* `title`: set title of code block.
+* `linenos`: set whether to show line number. default: True.
+* `title_bar`: set title bar show head or foot of code block. default: header.
 
-`title`: set title of code block.
-
-`linenos`: set whether to show line number. default: True.
-
-`title_bar`: set title bar show head or foot of code block. default: header.
-
-Highlight a code file.
+Highlight a code file:
 
     like this
     
