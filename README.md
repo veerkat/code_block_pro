@@ -12,7 +12,7 @@ How To Use
   
 `{}` is a dict of configs.
 
-configs:
+Configs:
 
 * `"code_path"`  default: "", code file path.
 * `"linenos"`  default: "True", value is "True" or "False", add line number to code.
@@ -29,7 +29,7 @@ Markdown Syntax
     sometext...
     
     
-The `:[]` is mark of highlighting code block. You can set some configs in `[]`,
+`:[]` is mark of highlighting code block. You can set some configs in `[]`,
 such as `:[lang=python,title="python test", linenos=False, title_bar=footer]`.
 
 All configs in markdown syntax:
