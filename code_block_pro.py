@@ -28,7 +28,7 @@ class CodeBlockProTreeprocessor(Treeprocessor):
                     placeholder = self.markdown.htmlStash.store(c,safe=True)
                     # Clear codeblock in etree instance
                     block.clear()
-                    # Change to p element which will later
+                    # Change to div element which will later
                     # be removed when inserting raw html
                     block.tag = 'div'
                     block.set('class', 'codeblock')
