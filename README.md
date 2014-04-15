@@ -35,6 +35,7 @@ It will look like this:
 ![img](https://github.com/veerkat/code_block_pro/raw/master/preview/preview.png)
 
 `:[]` is mark of highlighting code block. You can set some configs in `[]`,
+
 such as `:[lang=python,title="python test", linenos=False, title_bar=footer]`.
 
 All configs in markdown syntax:
