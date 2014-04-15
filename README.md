@@ -18,17 +18,20 @@ Configs:
 * `"linenos"`  default: "True", value is "True" or "False", add line number to code.
 * `"title_bar"`  default: "header", value is "header" or "footer", show the title bar of CodeBlock.
     
+Note: if you use the extension, please include codeblockui.css and pygments.css in html file, codeblockui.css provides a ui style and pygments.css provides a code highlight style, you can also alter them that you like.  
 Markdown Syntax
 ---------------
 
     like this
         
-        :[lang=python]
+        :[lang=python,title="Python Test"]
         print "hello, world."
     
     sometext...
     
     
+It will look like this:
+![img](https://github.com/veerkat/code_block_pro/preview/preview.png)
 `:[]` is mark of highlighting code block. You can set some configs in `[]`,
 such as `:[lang=python,title="python test", linenos=False, title_bar=footer]`.
 
