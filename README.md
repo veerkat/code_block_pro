@@ -18,7 +18,8 @@ Configs:
 * `"linenos"`  default: "True", value is "True" or "False", add line number to code.
 * `"title_bar"`  default: "header", value is "header" or "footer", show the title bar of CodeBlock.
     
-Note: if you use the extension, please include `codeblockui.css` and `pygments.css` in html file, `codeblockui.css` provides a ui style and `pygments.css` provides a code highlight style, you can also alter them that you like.  
+Note: if you use the extension, please include `codeblockui.css` and `pygments.css` in html file, `codeblockui.css` provides a ui style and `pygments.css` provides a code highlight style, you can also alter them that you like.
+
 Markdown Syntax
 ---------------
 
